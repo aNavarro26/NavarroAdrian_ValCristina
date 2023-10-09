@@ -1,12 +1,13 @@
 /* Definicion de los estilos del Título1 */
 h1 {
-    color:#485696;
-    text-align:center;
+    color: #485696;
+    text-align: center;
     font-weight: bold;
 }
+
 /*------Definiciónes de los estilos de la tabla------*/
 /*Caption de la tabla*/
- caption {
+caption {
     color: #4F5D75;
     border: none;
     margin-bottom: 5px;
@@ -14,7 +15,8 @@ h1 {
 
 /*contorno exterior de la tabla*/
 table {
-    margin: auto;     /* Márgenes*/
+    margin: auto;
+    /* Márgenes*/
     border-collapse: collapse;
     border: 1px black solid;
 }
@@ -31,12 +33,13 @@ tr {
 /* capçaleres de la taula */
 
 th {
-    border-collapse: collapse; /*para que sólo salga 1 línea de contorno en la tabla*/
+    border-collapse: collapse;
+    /*para que sólo salga 1 línea de contorno en la tabla*/
     border: 1px black solid;
-    background-color:#2063D7;
+    background-color: #2063D7;
     color: white;
     text-align: center;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 /*contenido de la tabla*/
@@ -48,9 +51,3 @@ td {
 .lanza {
     text-align: center;
 }
-
-
-
-
-
-
