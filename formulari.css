@@ -54,7 +54,7 @@ button span {
     background-color: #A18F7D;
 }
 
-button span::after {
+button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
