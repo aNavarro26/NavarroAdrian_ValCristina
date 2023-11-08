@@ -1,7 +1,6 @@
 #contenedor {
     margin: 30px;
     text-align: center;
-    font-size: 50px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
