@@ -78,3 +78,15 @@ main {
     position: relative;
     top: 170px;
 }
+
+@media(max-width:768px){
+    {
+        
+    }
+}
+/*Per a pantalles com a molt de 480px d'amplada*/
+@media(max-width:480px){
+    .{
+        
+        
+    }
