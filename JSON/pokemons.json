@@ -1,0 +1,114 @@
+{
+    "pokemons":
+    [
+        {
+            "identificador": 1,
+            "nom": "Bulbasur",
+            "tipus":[
+                {
+                    "tipo": "Planta"
+                },
+                {
+                    "tipo": "Veneno"
+                }
+            ],
+            "pes":{
+                "unitat_de_mesura": "Kg",
+                "quantitat": 6.9
+            },
+            "altura": {
+                "unitat_de_mesura": "cm",
+                "quantitat": 70
+            },
+            "estadisticas": {
+                "velocitat": 3,
+                "fortalesa": 3,
+                "precisio": 4,
+                "resistencia": 4,
+                "salt": 3,
+                "total": 17,
+                "media": 3.4
+            },        
+            "moviments": [
+                {
+                    
+                    "nom": "látigo cepa",
+                    "descripcio": "Golpea hacia delante con lianas como látigos que infligen daño a los rivales en el área de efecto y reducen temporalmente su velocidad de desplazamiento.",
+                    "potencia": 7,
+                    "contacte": true
+                },
+                {
+                    "nom": "placaje",
+                    "descripcio": "Embiste con su enorme tripa e inflige daño a los rivales, empujando al primero que golpea. Tras usar el movimiento, el siguiente ataque básico es un ataque potenciado.",
+                    "potencia":40,
+                    "contacte":true
+                }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/300px-Bulbasaur.png",
+            "evolucions": [
+                {
+                    "identificador": 2,
+                    "nivel": 16
+                },
+                {
+                    "identificador": 3,
+                    "nivel": 32
+                }
+            ]
+        },
+        {
+            "identificador": 4,
+            "nom": "Charmander",
+            "tipus":[
+                {
+                    "tipus": "foc"
+                }
+            ],
+            "pes":{
+                "unitat_de_mesura": "Kg",
+                "quantitat": 8.5
+            },
+            "altura":{
+                "unitat_de_mesura":"cm",
+                "quantitat": 60
+            },
+            "estadisticas": {
+                "velocitat": 3,
+                "fortalesa": 5,
+                "precisio": 4,
+                "resistencia": 3,
+                "salt": 3,
+                "total": 18,
+                "mitjana": 3.6
+                
+            },
+            "moviments": [
+                { 
+                    "nom": "arañazo",
+                    "descripcio": "Embiste en la dirección seleccionada, lo que inflige daño a los Pokémon rivales en su trayectoria y reduce temporalmente su velocidad de desplazamiento. Durante un breve período de tiempo, si reactiva el movimiento, ataca hacia adelante e inflige daño a los Pokémon rivales a los que alcance. El segundo ataque inflige daño adicional en función del porcentaje de PS que le falten al Pokémon rival.",
+                    "potencia": 40,
+                    "contacte": true
+                    
+                },
+                {
+                    "nom": "gruñido",
+                    "descripcio": "Gruñe al Pokémon rival seleccionado, lo que le inflige daño y reduce temporalmente su velocidad de desplazamiento.",
+                    "potencia": 0,
+                    "contacte": false
+                }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/300px-Charmander.png",
+            "evolucions": [
+                {
+                    "identificador": 5,
+                    "nivel": 16
+                },
+                {
+                    "identificador": 6,
+                    "nivel": 36
+                }
+            ]
+            
+        }
+    ]
+}
