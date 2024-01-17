@@ -1,0 +1,17 @@
+{
+    "cotxe":{
+        "marca":"Toyota",
+        "model":"Camry",
+        "tipus":"sedan",
+        "any":2022,
+        "preu":{
+            "moneda": "EUR",
+            "valor":25000,
+        }
+    }
+
+}
+
+{
+    
+}
